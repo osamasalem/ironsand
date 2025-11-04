@@ -1,0 +1,173 @@
+{
+	"name": "Amaso Melas",
+	"colors": {
+		"editor.background": "#0d0d0e",
+		//"editor.background": "#031113",
+		"editor.foreground": "#eeffffd4",
+		"editorLineNumber.foreground": "#373838d4",
+		"editorGroupHeader.tabsBackground": "#070708",
+		"activityBarBadge.background": "#070707",
+		"editorHoverWidget.background": "#070707",
+		"sideBarTitle.foreground": "#bbbbbb",
+		//"activityBarTop.activeBackground": "#070708",
+		"activityBarTop.background": "#070708",
+		"panel.background": "#070708",
+		"banner.background": "#070708",
+		"menu.background": "#070708",
+		"titleBar.activeBackground": "#070708",
+		"tab.activeBackground": "#070708",
+		"tab.inactiveBackground": "#070708",
+		"tab.unfocusedInactiveBackground": "#070708",
+		"tab.unfocusedActiveBackground": "#070708",
+		"tab.selectedBackground": "#070708",
+		"badge.background": "#070708",
+		"activityBar.background": "#070708",
+		"statusBar.background": "#070708",
+		"sideBar.background": "#070708",
+		"toolbar.activeBackground": "#070708",
+		"editorWidget.background": "#070708",
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"*.mutable": {
+			"fontStyle": "underline"
+		},
+		"*.unsafe": "#f16565",
+		"enumMember": "#d3d490",
+		//"selfKeyword": "#eeffffd4",
+		"selfTypeKeyword": "#f7b64e",
+		"const": "#d3d490",
+		//"lifetime": "#f7b64e",
+		"lifetime": "#f7b64e",
+		//"label": "#ff8c49",
+		"macro": "#f793ed",
+		"attributeBracket": "#f793ed",
+		"decorator": "#f793ed",
+		"builtinAttribute": "#f793ed",
+		"deriveHelper": "#f793ed",
+	},
+	"tokenColors": [
+		{
+			"name": "General",
+			"scope": [
+				"constant",
+				"namespace",
+				"meta.interpolation.rust",
+				"meta.function.definition"
+				//				"entity.name.tag",
+				//				"keyword.assignment"
+			],
+			"settings": {
+				"foreground": "#eeffffd4"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+			],
+			"settings": {
+				//"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"foreground": "#3b8f3b"
+				//"foreground": "#11cdea"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a664f7"
+				//"foreground": "#6e98f9"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"punctuation.brackets",
+				"punctuation.comma",
+				// "keyword.operator.logical",
+				// "keyword.operator.arithmetic",
+				// "keyword.operator.math",
+				// "keyword.operator.comparison",
+				// "keyword.operator.range",
+				// "keyword.operator.assignment",
+				//"support.function",
+				"constant.other.symbol",
+				"support.token.decorator",
+				"decorator"
+			],
+			"settings": {
+				"foreground": "#a6a8a8d4",
+				//"foreground": "#c394fc"
+				//"foreground": "#772983d4",
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				//"constant"
+			],
+			"settings": {
+				"foreground": "#97cb82"
+			}
+		},
+		{
+			"name": "values",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#d3d490"
+				//"foreground": "#f4795b"
+			}
+		},
+		{
+			"name": "type",
+			"scope": [
+				"entity.name.type",
+			],
+			"settings": {
+				"foreground": "#f7b64e"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				//"fontStyle": "italic",
+				"foreground": "#acdbffd4"
+				//"foreground": "#85bbf9d4"
+				//"foreground": "#bcdbffd4"
+				//"foreground": "#93c2fad4",
+			}
+		},
+		{
+			"name": "Attribute",
+			"scope": [
+				"meta.attribute",
+			],
+			"settings": {
+				//"fontStyle": "italic",
+				"foreground": "#f793ed"
+				//"foreground": "#85bbf9d4"
+				//"foreground": "#bcdbffd4"
+				//"foreground": "#93c2fad4",
+			}
+		},
+	]
+}

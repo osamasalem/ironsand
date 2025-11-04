@@ -1,0 +1,21 @@
+{
+  "name": "eyecandie",
+  "displayName": "EyeCanDie",
+  "description": "Minimal Dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Amaso Melas",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Amaso Melas-color-theme.json"
+      }
+    ]
+  }
+}
