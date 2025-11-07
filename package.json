@@ -1,20 +1,31 @@
 {
-  "name": "eyecandie",
-  "displayName": "EyeCanDie",
-  "description": "Minimal Dark theme",
-  "version": "0.0.1",
+  "name": "ironsand",
+  "displayName": "Ironsand",
+  "description": "Minimal Dark theme for Rust",
+  "version": "1.0.0",
+  "author": {
+    "name": "osamasalem"
+  },
+  "keywords": [
+    "rust",
+    "dark",
+    "theme",
+    "color-theme",
+    "minimal"
+  ],
   "engines": {
     "vscode": "^1.105.0"
   },
   "categories": [
     "Themes"
   ],
+  "license": "MIT",
   "contributes": {
     "themes": [
       {
-        "label": "Amaso Melas",
+        "label": "osamasalem",
         "uiTheme": "vs-dark",
-        "path": "./themes/Amaso Melas-color-theme.json"
+        "path": "./themes/Iron Sand-color-theme.json"
       }
     ]
   }
