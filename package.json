@@ -3,9 +3,8 @@
   "displayName": "Ironsand",
   "description": "Minimal Dark theme for Rust",
   "version": "1.0.0",
-  "author": {
-    "name": "osamasalem"
-  },
+  "publisher": "osamasalem",
+  "author": "Osama Salem",
   "keywords": [
     "rust",
     "dark",
@@ -13,6 +12,9 @@
     "color-theme",
     "minimal"
   ],
+  "repository": {
+    "url": "https://github.com/osamasalem/ironsand"
+  },
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -23,7 +25,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "osamasalem",
+        "label": "Iron Sand",
         "uiTheme": "vs-dark",
         "path": "./themes/Iron Sand-color-theme.json"
       }

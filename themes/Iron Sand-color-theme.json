@@ -1,11 +1,10 @@
 {
-	"name": "Amaso Melas",
+	"name": "IronSand",
 	"colors": {
 		"editor.background": "#04040b",
 		"editor.foreground": "#eeffffd4",
 		"editorLineNumber.foreground": "#373838d4",
 		"editor.selectionBackground": "#2b252dd4",
-		//"editor.inlineValuesBackground": "#ffc80033",
 		"editor.wordHighlightBackground": "#4a2401d4",
 		"editor.wordHighlightBorder": "#ec7404d4",
 		"editorGroupHeader.tabsBackground": "#070708",

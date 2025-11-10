@@ -1,4 +1,4 @@
-# Ironsand README
+# Ironsand Theme
 
 Simple Pitch-Dark theme for Rust which has
 
