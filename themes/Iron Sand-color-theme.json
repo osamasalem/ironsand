@@ -77,17 +77,13 @@
 		{
 			"scope": [
 				"keyword.operator",
-				"punctuation.brackets",
-				"punctuation.comma",
 				"constant.other.symbol",
 				"support.token.decorator",
 				"decorator",
-				"punctuation.definition.begin.bracket",
-				"punctuation.definition.end.bracket"
+				"punctuation",
 			],
 			"settings": {
 				"foreground": "#7d7e7ed4",
-				//"foreground": "#6ebc9ed4",
 			}
 		},
 		{
