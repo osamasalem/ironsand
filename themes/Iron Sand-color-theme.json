@@ -28,7 +28,7 @@
 		"toolbar.activeBackground": "#070708",
 		"editorWidget.background": "#070708",
 	},
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": "#d3d490",
 		"macro": "#f793ed",
@@ -38,11 +38,30 @@
 		"deriveHelper": "#f793ed",
 		"lifetime": "#1ed8a7",
 		"label": "#1ed8a7",
+		"*.unsafe": "#d45778",
 		"*.mutable": {
 			"fontStyle": "underline"
+		},
+		"method.consuming": {
+			"fontStyle": "italic"
+		},
+		"variable.consuming": {
+			"fontStyle": "strikethrough"
+		},
+		"parameter.consuming": {
+			"fontStyle": "strikethrough"
 		}
 	},
 	"tokenColors": [
+		{
+			"scope": [
+				"keyword.operator.question.rust",
+			],
+			"settings": {
+				"foreground": "#f793ed",
+				"fontStyle": "bold"
+			}
+		},
 		{
 			"scope": [
 				"constant",
@@ -76,7 +95,15 @@
 		},
 		{
 			"scope": [
-				"keyword.operator",
+				"keyword.operator.math",
+				"keyword.operator.access",
+				"keyword.operator.key-value",
+				"keyword.operator.logical",
+				"keyword.operator.arrow",
+				"keyword.operator.assignment",
+				"keyword.operator.borrow",
+				"keyword.operator.comparison",
+				"keyword.operator.namespace",
 				"constant.other.symbol",
 				"support.token.decorator",
 				"decorator",
@@ -116,7 +143,7 @@
 				"entity.name.function",
 			],
 			"settings": {
-				"foreground": "#acdbffd4"
+				"foreground": "#96d5ffd4"
 			}
 		},
 		{
@@ -125,6 +152,14 @@
 			],
 			"settings": {
 				"foreground": "#f793ed"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#eeffffd4"
 			}
 		},
 	]
