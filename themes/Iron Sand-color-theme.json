@@ -55,6 +55,14 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"entity.name.type.lifetime.rust",
+			],
+			"settings": {
+				"foreground": "#1ed8a7",
+			}
+		},
+		{
+			"scope": [
 				"keyword.operator.question.rust",
 			],
 			"settings": {
@@ -86,7 +94,8 @@
 				"keyword.control",
 				"keyword.function",
 				"keyword.struct",
-				"keyword.other"
+				"keyword.other",
+				"storage.type.rust"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -124,6 +133,8 @@
 		{
 			"scope": [
 				"constant",
+				"entity.name.type.option",
+				"entity.name.type.result",
 			],
 			"settings": {
 				"foreground": "#d3d490"
